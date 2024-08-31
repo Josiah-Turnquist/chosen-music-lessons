@@ -69,21 +69,21 @@ return (
 
     <div id="about-me" className='about' style={{ backgroundColor: theme.palette.background}}>
       {width < tablet && <Typography variant="h2" style={{ color: theme.palette.primary.text, textAlign:  'left', margin: '1px 40px 1em 0px'}}>
-        About Me
+        About Moses Cho
       </Typography>}
 
       <img src={Profile} alt="Moses Cho" className='profile'/>
 
       {width > tablet && <Typography variant="h2" style={{ color: theme.palette.primary.text, textAlign:  'left', margin: '1px 40px 20px 70px'}}>
-        About Me
+        About Moses Cho
       </Typography>}
 
-      <Typography variant="subtitle1" style={{ color: theme.palette.primary.text, textAlign: 'left', margin: (width < tablet ? '1rem 0px' : '1rem 70px'), maxWidth: (width < tablet ? '350px' : '400px')}}>
-        Initially joining the church band out of necessity at 12 years old, it has now become a regular part of my life with over 15 years of experience in diverse settings.
+      <Typography variant="subtitle1" style={{ color: theme.palette.primary.text, textAlign: 'left', margin: (width < tablet ? '1rem 0px' : '1rem 70px'), maxWidth: (width < tablet ? '350px' : '430px')}}>
+      Moses Cho is an experienced worship leader, teacher, tutor, and coach. Beginning at church in middle school, he has now spent 20+ years sharpening his musical skills in various bands.
       </Typography>
 
       <Typography variant="subtitle1" style={{ color: theme.palette.primary.text, textAlign: 'left', margin: (width < tablet ? '1rem 0px' : '1rem 70px'), maxWidth: (width < tablet ? '350px' : '400px')}}>
-        Check out my other business in woodworking!
+        Check out his other business in woodworking!
       </Typography>
 
       <a href="https://www.etsy.com/shop/ChosenCraftCo">
@@ -121,7 +121,7 @@ return (
       </div>
     </div>
 
-    <div id="contact" className='testimonials' style={{ backgroundColor: theme.palette.background}}>
+    <div id="testimonials" className='testimonials' style={{ backgroundColor: theme.palette.background}}>
       <Typography variant="h2" style={{ width: '-webkit-fill-available', color: theme.palette.primary.text, textAlign:  'left', margin: '0em 0 2em'}}>
         Testimonials
       </Typography>

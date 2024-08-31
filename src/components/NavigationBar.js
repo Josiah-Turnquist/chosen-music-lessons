@@ -66,9 +66,9 @@ function NavigationBar({ title, activeSection, sections, changeSection }) {
                         Services
                     </Typography>
                 </a>
-                <a href="/#contact" className="navbar-button transition-all" sx={hoverSX}>
+                <a href="/#testimonials" className="navbar-button transition-all" sx={hoverSX}>
                     <Typography className="fade-in" variant="navButtons" >
-                        Contact
+                        testimonials
                     </Typography>
                 </a>
                 {/* <a href={links.linkedin} className="fade-in"><LinkedInIcon sx={hoverSX} /></a>
