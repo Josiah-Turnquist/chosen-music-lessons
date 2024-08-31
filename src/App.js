@@ -74,16 +74,16 @@ return (
 
       <img src={Profile} alt="Moses Cho" className='profile'/>
 
-      {width > tablet && <Typography variant="h2" style={{ color: theme.palette.primary.text, textAlign:  'left', margin: '1px 40px 20px 70px'}}>
+      {width > tablet && <Typography variant="h2" style={{ color: theme.palette.primary.text, textAlign:  'left', margin: '1px 40px 10px 70px'}}>
         About Moses Cho
       </Typography>}
 
-      <Typography variant="subtitle1" style={{ color: theme.palette.primary.text, textAlign: 'left', margin: (width < tablet ? '1rem 0px' : '1rem 70px'), maxWidth: (width < tablet ? '350px' : '430px')}}>
-      Moses Cho is an experienced worship leader, teacher, tutor, and coach. Beginning at church in middle school, he has now spent 20+ years sharpening his musical skills in various bands.
+      <Typography variant="subtitle1" style={{ color: theme.palette.primary.text, textAlign: 'left', margin: (width < tablet ? '1rem 0px' : '0.5rem 70px'), maxWidth: (width < tablet ? '350px' : '430px')}}>
+        As a music teacher with 20+ years experience playing in multiple bands, I bring real-world experience to my lessons. My expertise in music theory and diverse instruments allows me to offer personalized guidance in a supportive environment.
       </Typography>
 
       <Typography variant="subtitle1" style={{ color: theme.palette.primary.text, textAlign: 'left', margin: (width < tablet ? '1rem 0px' : '1rem 70px'), maxWidth: (width < tablet ? '350px' : '400px')}}>
-        Check out his other business in woodworking!
+        Check out my other business in woodworking!
       </Typography>
 
       <a href="https://www.etsy.com/shop/ChosenCraftCo">
@@ -100,7 +100,7 @@ return (
           Piano
         </Typography>
         <Typography variant="subtitle2" style={{ color: theme.palette.primary.text, textAlign: 'left', margin: '1em', maxWidth: '89vw'}}>
-          From basic music theory to leading worship
+          Enjoy learning to play with your personalized lessons for all ages! Enhance your skills and express your creativity through music.
         </Typography>
       </div>
       <div className='servicecard'>
@@ -108,7 +108,7 @@ return (
           Guitar
         </Typography>
         <Typography variant="subtitle2" style={{ color: theme.palette.primary.text, textAlign: 'left', margin: '1em', maxWidth: '89vw'}}>
-          From basic music theory to leading worship
+          I provide personalized instruction to help you master chords, techniques, and songs, whether you're a beginner or an advanced player.
         </Typography>
       </div>
       <div className='servicecard'>
@@ -116,7 +116,7 @@ return (
           Drums
         </Typography>
         <Typography variant="subtitle2" style={{ color: theme.palette.primary.text, textAlign: 'left', margin: '1em', maxWidth: '89vw'}}>
-          From basic music theory to leading worship
+          Develop the skills needed to play confidently, whether you're a beginner or bandmember looking to refine your drumming abilities.
         </Typography>
       </div>
     </div>
