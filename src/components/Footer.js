@@ -103,7 +103,7 @@ function Footer({ title, body1, body2, changeSection, Button }) {
                 CHOSEN MUSIC LESSONS
             </Typography>
             <Typography variant="subtitle3" style={{ width: '-webkit-fill-available', color: theme.palette.primary.white, textAlign: 'center', marginBottom: '1rem', textWrap: 'nowrap'}}>
-                © 2023 Moses Cho Music. All rights reserved.
+                © 2024 Moses Cho Music. All rights reserved.
             </Typography>
         </div>
     );

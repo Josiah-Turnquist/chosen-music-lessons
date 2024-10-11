@@ -60,10 +60,10 @@ return (
         Welcome to Chosen Music Lessons.
       </Typography>
       <Typography className="fade-in surface" variant="subtitle1" style={{ color: theme.palette.primary.main, maxWidth: (width < tablet ? '80vw' : '50vw'), margin: (width < mobile ? '2em 10vw 2em 10vw' : '2em 40vw 2em 10vw'), paddingRight: (width < mobile ? '0' : '10vw')}}>
-        Experienced music educator offering personalized instruction in piano, guitar, and music theory.
+        Experienced music educator offering personalized instruction in piano, guitar, drums, and music theory.
       </Typography>
       <a href="mailto:chosenmusiclessons@gmail.com">
-        <Button variant="contained" style={{ textTransform: 'none', fontSize: (width < mobile ? '18px' : '18px'), backgroundColor: theme.palette.primary.accent, color: 'white', maxWidth: (width < mobile ? '80vw' : '60vw'), margin: (width < tablet ? '0vh 0 0 10vw' : '0 10vw')  }} >Schedule Consultation</Button>
+        <Button variant="contained" style={{ textTransform: 'none', fontSize: '18px', backgroundColor: theme.palette.primary.accent, color: 'white', maxWidth: (width < mobile ? '80vw' : '60vw'), margin: (width < tablet ? '0vh 0 0 10vw' : '0 10vw')  }} >Schedule Consultation</Button>
       </a>
     </div>
 
@@ -86,9 +86,15 @@ return (
         Check out my other business in woodworking!
       </Typography>
 
-      <a href="https://www.etsy.com/shop/ChosenCraftCo">
-        <Button variant="contained" style={{ textTransform: 'none', fontSize: '18px', backgroundColor: theme.palette.backgroundNav, color: 'white', maxWidth: (width < mobile ? '80vw' : '60vw'), margin: (width < tablet ? '1rem 0 0 0px' : '1rem 0 0 70px') }} >Go to ChosenCraftCo</Button>
-      </a>
+      <div style={{ maxWidth: (width < mobile ? '350px' : 'none') }}>
+        <a href="mailto:chosenmusiclessons@gmail.com">
+          <Button variant="contained" style={{ textTransform: 'none', fontSize: '18px', backgroundColor: theme.palette.primary.accent, color: 'white', maxWidth: (width < mobile ? '80vw' : '60vw'), margin: (width < tablet ? '0' : '1rem 0 0 70px')  }} >Schedule a Consultation</Button>
+        </a>
+
+        <a href="https://www.etsy.com/shop/ChosenCraftCo">
+          <Button variant="outlined" style={{ textTransform: 'none', borderWidth: '1.5px', borderColor:  theme.palette.backgroundNav, fontSize: '18px', color:  theme.palette.backgroundNav, maxWidth: (width < mobile ? '80vw' : '60vw'), margin: (width < tablet ? '18px 0 0 0' : '1rem 0 0 24px') }} >Go to ChosenCraftCo</Button>
+        </a>
+      </div>
     </div>
 
     <div id="services" className='services' style={{ backgroundColor: theme.palette.background2}}>
@@ -119,6 +125,9 @@ return (
           Develop the skills needed to play confidently, whether you're a beginner or bandmember looking to refine your drumming abilities.
         </Typography>
       </div>
+      <Typography variant="subtitle2" style={{ color: theme.palette.primary.text, textAlign: 'left', margin: '2em 0 0em 0em', textAlign: 'center', width: '100%'}}>
+        * Pricing is $70 for an hour or $40 for half an hour.
+      </Typography>
     </div>
 
     <div id="testimonials" className='testimonials' style={{ backgroundColor: theme.palette.background}}>
@@ -130,7 +139,7 @@ return (
           "As a complete beginner, I was nervous about starting piano. Moses made learning fun and approachable!"
         </Typography>
         <Typography variant="quotes2" style={{ color: theme.palette.primary.text, textAlign: 'left', margin: '1em', maxWidth: '89vw'}}>
-          - Landon R.
+          - Landon L.
         </Typography>
       </div>
       <div className='testimonialcard'>
@@ -141,6 +150,14 @@ return (
           - Caleb A.
         </Typography>
       </div>
+      {/* <div className='testimonialcard'>
+        <Typography variant="quotes1" style={{ color: theme.palette.primary.text, textAlign: 'left', margin: '1em'}}>
+          "Moses abused me every day for a year. But at least I can play guitar now!"
+        </Typography>
+        <Typography variant="quotes2" style={{ color: theme.palette.primary.text, textAlign: 'left', margin: '1em', maxWidth: '89vw'}}>
+          - Matthew C.
+        </Typography>
+      </div> */}
     </div>
 
     <Footer />
